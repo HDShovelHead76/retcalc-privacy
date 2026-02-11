@@ -51,14 +51,14 @@
         All data provided in the App is for informational and planning purposes only.
     </p>
 
-    <h2>Information We Do NOT Collect</h2>
+    <h2>Information We Do NOT Collect or Store</h2>
     <p>
         Military Federal Retirement Planner is designed with your privacy as a top priority. We want to be clear:
     </p>
     <ul>
-        <li>We do NOT collect any personal information</li>
+        <li>We do NOT collect or store any personal information on our servers</li>
         <li>We do NOT track your usage or behavior</li>
-        <li>We do NOT transmit your data to our servers</li>
+        <li>We do NOT retain calculation data after processing</li>
         <li>We do NOT share your information with third parties</li>
         <li>We do NOT use analytics or advertising services</li>
         <li>We do NOT require you to create an account</li>
@@ -83,27 +83,19 @@
 
     <h2>Backend Server Communication</h2>
     <p>
-        The App connects to our backend server hosted on Railway.app solely to retrieve:
+        The App connects to our backend server hosted on Railway.app for two purposes:
     </p>
     <ul>
-        <li>Current federal and military pay tables</li>
-        <li>VA disability compensation rates</li>
-        <li>TRICARE premium rates</li>
-        <li>Thrift Savings Plan formulas</li>
-        <li>Social Security benefit formulas</li>
-        <li>Federal and State tax rates</li>
+        <li><strong>Retrieving reference data:</strong> Current federal and military pay tables, VA disability compensation rates, TRICARE premium rates, Thrift Savings Plan formulas, Social Security benefit formulas, and federal/state tax rates</li>
+        <li><strong>Processing calculations:</strong> Your inputs are sent securely to our API for computation and immediately returned to your device. No data is stored on our servers.</li>
     </ul>
     <p>
-        These requests do NOT include any of your personal information or calculation data. The server only provides
-        reference data needed for accurate calculations.
+        These requests do NOT result in any storage of your personal information. The server processes calculations in real-time and returns results without retaining any user data.
     </p>
 
     <h2>Data Transmission Security</h2>
     <p>
-        While the App does not collect or transmit any personal information, any data that is sent off your device 
-        — such as reference tables for retirement calculations or crash logs for diagnostics — is transmitted 
-        securely using encryption (HTTPS/TLS). This ensures that all communications between your device and our 
-        backend services or Google/Firebase are protected.
+        All data transmitted between your device and our backend server is encrypted using industry-standard HTTPS/TLS protocols. This ensures that all communications are protected during transit. However, we emphasize that no personal information is stored on our servers after processing is complete.
     </p>
     
     <h2>Data Security</h2>
@@ -147,7 +139,7 @@
     <h2>Third-Party Services</h2>
     <p>
         The App does not integrate with any third-party analytics, advertising, or tracking services. The only
-        external connection is to our backend server for retrieving public pay table data, tax rates, and estimated retirement planning formulas.
+        external connection is to our backend server for processing calculations and retrieving public reference data.
     </p>
 
     <h2>Your Rights</h2>
@@ -167,7 +159,7 @@
     <h2>International Users</h2>
     <p>
         The App is designed primarily for U.S. military personnel, veterans, and federal employees. However, users
-        from any location can use the App. Regardless of your location, we do not collect or transmit your personal data.
+        from any location can use the App. Regardless of your location, we do not collect or store your personal data on our servers.
     </p>
 
     <div class="contact">
